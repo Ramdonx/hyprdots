@@ -1,0 +1,2 @@
+# hyprdots
+My Hyprland configs

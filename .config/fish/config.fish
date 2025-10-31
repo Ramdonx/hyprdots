@@ -32,15 +32,6 @@ if status is-interactive # Commands to run in interactive sessions can go here
     alias ..="cd .."
     alias ...="cd ../.."
 
-#Funcion para ejecutar ls despudes de usar cd
-#function cd
-#    builtin cd $argv
-#    and eza --group-directories-first --icons=always
-#zoxide init fish | source
-
-#function cd
-#    __zoxide_z $argv
-#    and eza --group-directories-first --icons=always
 zoxide init fish | source
 
 function cd
